@@ -17,7 +17,7 @@ export const Experience = () => {
   return (
     <>
       {/* <OrbitControls /> */}
-      <ScrollControls pages={3}>
+      <ScrollControls pages={3} damping={0.75}>
         <Scroll>
           <mesh scale={[5, 8, 0.1]} position={[2, 0, -1.5]}>
             <meshNormalMaterial />
